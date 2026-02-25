@@ -14,7 +14,7 @@ console.log("Pembayaran =Rp."+pembayaran )
 
 let kembalian = uang-pembayaran
 
-//else if (kembalian >= uang2){
+
     while(kembalian >= uang1 ){
         totalKembali = 50000
         totalKembali2 = totalKembali2 + 50000
@@ -29,7 +29,7 @@ let kembalian = uang-pembayaran
         uang2 = uang2 + 10000
     }
     finalKembali = kembalian - totalKembali2
-//    if (totalKembali2 < 10000){
+
         while(finalKembali >= uang3){
         totalKembali = 5000
         totalKembali2 = totalKembali2 + 5000
@@ -37,7 +37,7 @@ let kembalian = uang-pembayaran
         uang3 = uang3 + 5000
         }
         finalKembali2 = kembalian - totalKembali2
-//    if (totalKembali2 < 10000){
+
         while(finalKembali2 >= uang4){
         totalKembali = 2000
         totalKembali2 = totalKembali2 + 2000
@@ -53,5 +53,5 @@ let kembalian = uang-pembayaran
         }
         
 
-//}
+
 
