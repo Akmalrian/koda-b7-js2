@@ -2,7 +2,8 @@ const belanja = 1200000
 
 console.log("Belanja =Rp."+belanja)
 
-if (belanja < 500000){
+if(belanja){
+if (belanja > 0 && belanja < 500000){
     console.log("Tidak ada diskon")
     diskon = 0
 }
@@ -14,6 +15,7 @@ else {
     console.log("Diskon 10%")
     diskon = belanja *0.1
 }
-
 totalBelanja = belanja-diskon
 console.log("Total Belanja =Rp."+totalBelanja)
+}
+
