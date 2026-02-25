@@ -1,9 +1,9 @@
 const pembayaran = 27000
-const uang = 50000
+const uang = 100000
 let totalKembali = 0
 let totalKembali2 = 0
 
-const uang1 = 50000
+let uang1 = 50000
 let uang2 = 10000
 let uang3 = 5000
 let uang4 = 2000
@@ -15,7 +15,14 @@ console.log("Pembayaran =Rp."+pembayaran )
 let kembalian = uang-pembayaran
 
 //else if (kembalian >= uang2){
-    while(kembalian >= uang2 ){
+    while(kembalian >= uang1 ){
+        totalKembali = 50000
+        totalKembali2 = totalKembali2 + 50000
+        console.log("Uang Kembalian =Rp."+totalKembali)
+        uang1 = uang1 + 50000
+    }
+    finalKembali0 = kembalian - totalKembali2
+    while(finalKembali0 >= uang2 ){
         totalKembali = 10000
         totalKembali2 = totalKembali2 + 10000
         console.log("Uang Kembalian =Rp."+totalKembali)
